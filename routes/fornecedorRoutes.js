@@ -57,4 +57,29 @@ router.post("/", (req, res) => {
   res.redirect('/fornecedores');
 })
 
+// excluir 
+
+router.get("/excluir/:id", (req, res) => {
+
+  let id = parseInt(req.params.id);
+
+  fornecedores = fornecedores.filter(c => c.id !== id);
+
+  res.redirect("/fornecedores");
+});
+
+//editar - form - GET
+router.get("/editar/:id", (req, res)=> {
+  let id = parseInt(req.params.id);
+  let fornecedor = fornecedores.find(c => c.id === id)
+
+  if(!fornecedor){
+    return res.redirect("/fornecedores");
+  }
+
+  res.render("fornecedor/editar", { fornecedor });
+});
+
+//editar - efetiva - POST
+
 module.exports = router;
