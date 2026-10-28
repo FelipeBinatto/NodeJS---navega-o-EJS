@@ -125,23 +125,16 @@ Registro da solicitação realizada ao ChatGPT para obter auxílio na melhoria v
 
 ### 10.2. Resposta da IA com o CSS
 
-![Resposta da IA com as sugestões de CSS](docs/evidencias/resposta-css-ia.png)
+![Resposta da IA com as sugestões de CSS](public/img/prompt2.png)
 
 Registro da resposta contendo as sugestões de estilização para os componentes da interface.
-
-### 10.3. Correções e adaptações
-
-![Registro da revisão do CSS](docs/evidencias/correcoes-css.png)
-
-Registro das correções e adaptações realizadas pelos integrantes após a utilização do CSS sugerido pela IA.
-
-> Substitua os caminhos acima pelos nomes dos arquivos de imagem realmente salvos no repositório. As imagens não aparecerão até que os arquivos existam nesses locais.
 
 ## 11. Antes da Reestilização
 
 Nesta seção será apresentada a interface original do sistema, antes da aplicação das melhorias visuais.
 
-![Sistema antes da reestilização](docs/evidencias/antes.png)
+![Sistema antes da reestilização](public/img/homeantiga.png)
+![Sistema antes da reestilização](public/img/addantigo.png)
 
 **Descrição:** captura de tela da interface original, utilizada como referência para comparação com a versão reestilizada.
 
@@ -149,7 +142,8 @@ Nesta seção será apresentada a interface original do sistema, antes da aplica
 
 Nesta seção será apresentada a interface após a aplicação das melhorias visuais.
 
-![Sistema depois da reestilização](docs/evidencias/depois.png)
+![Sistema depois da reestilização](public/img/telahomenovo.png)
+![Sistema depois da reestilização](public/img/telalista.png)
 
 **Descrição:** captura de tela da interface após a aplicação dos estilos CSS, destacando as alterações visuais realizadas.
 
@@ -161,11 +155,11 @@ O objetivo da reestilização foi aprimorar a experiência visual sem compromete
 
 ## 13. Link da Aplicação
 
-[**Acessar a aplicação**](INSERIR_LINK_DA_APLICACAO)
+[**Acessar a aplicação**](https://nodejs-navega-o-ejs.onrender.com/)
 
 ## 14. Link do Repositório
 
-[**Acessar o repositório no GitHub**](INSERIR_LINK_DO_REPOSITORIO)
+[**Acessar o repositório no GitHub**](https://github.com/FelipeBinatto/NodeJS---navega-o-EJS.git)
 
 ---
 
