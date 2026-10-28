@@ -24,12 +24,10 @@ Durante o desenvolvimento, o grupo foi responsável pela construção das funcio
 - **CSS:** estilização e personalização visual da interface.
 - **Bootstrap:** utilização de componentes visuais, caso aplicável.
 - **JavaScript:** implementação de interatividade, caso utilizado.
-- **[Tecnologia de backend]:** processamento das operações do sistema.
-- **[Banco de dados]:** armazenamento das informações.
+- **Node.js:** processamento das operações do sistema.
 - **Git e GitHub:** controle de versão e hospedagem do código.
 - **ChatGPT:** apoio na elaboração e melhoria dos estilos CSS.
 
-> Ajuste esta lista conforme as tecnologias realmente utilizadas no projeto.
 
 ## 5. Funcionalidades
 
