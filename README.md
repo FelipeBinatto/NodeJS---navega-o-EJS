@@ -119,8 +119,7 @@ A maior parte da estilização foi produzida com o auxílio da IA, enquanto as c
 Nesta seção serão apresentadas as evidências da utilização da Inteligência Artificial durante o processo de estilização.
 
 ### 10.1. Prompt enviado
-
-![Prompt utilizado na conversa com a IA](docs/evidencias/prompt-ia.png)
+![Prompt utilizado na conversa com a IA](../public/img/prompt1)
 
 Registro da solicitação realizada ao ChatGPT para obter auxílio na melhoria visual do sistema.
 
