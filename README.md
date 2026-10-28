@@ -2,7 +2,7 @@
 
 ## 1. Nome do Projeto
 
-**Sistema de Gerenciamneto ejs**
+**Sistema de Gerenciamento ejs**
 
 ## 2. Integrantes
 
