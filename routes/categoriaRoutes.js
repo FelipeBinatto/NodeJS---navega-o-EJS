@@ -68,6 +68,22 @@ router.get("/editar/:id", (req, res)=> {
   res.render("categorias/editar", { categoria });
 });
 
-//editar - efetiva - POST
+// Editar categoria - efetivar alteração (POST)
+router.post("/editar/:id", (req, res) => {
+  const id = parseInt(req.params.id);
+
+  const categoriaEncontrada = categorias.find(c => c.id === id);
+
+  if (!categoriaEncontrada) {
+    return res.redirect("/categorias");
+  }
+
+  const { nome, descricao } = req.body;
+
+  categoriaEncontrada.nome = nome;
+  categoriaEncontrada.descricao = descricao;
+
+  res.redirect("/categorias");
+});
 
 module.exports = router;

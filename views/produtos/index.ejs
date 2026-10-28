@@ -33,38 +33,23 @@
                                 </tr>
                             </thead>
                             <tbody>
-                                <% produtos.forEach(mostrar=> { %>
-                                    <tr>
-                                        <td>
-                                            <%= mostrar.id %>
-                                        </td>
-                                        <td>
-                                            <%= mostrar.nome %>
-                                        </td>
-                                        <td>
-                                            <%= mostrar.preco %>
-                                        </td>
-                                        <td>
-                                            <%= mostrar.estoque %>
-                                        </td>
-                                        <td>
-                                            <%= mostrar.categoria %>
-                                        </td>
-                                        <td>
-                                            <%= mostrar.descricao %>
-                                        </td>
-                                        <td>
-                                            <a class="btn btn-success btn-sm"
-                                                href="/clientes/editar/<%= mostrar.id %> ">Editar</a>
+    <% produtos.forEach(mostrar => { %>
+        <tr>
+            <td><%= mostrar.id %></td>
+            <td><%= mostrar.nome %></td>
+            <td><%= mostrar.preco %></td>
+            <td><%= mostrar.estoque %></td>
+            <td><%= mostrar.categoria %></td>
+            <td><%= mostrar.descricao %></td>
+            <td>
+               
+                <a class="btn btn-success btn-sm" href="/produtos/editar/<%= mostrar.id %>">Editar</a>
+                <a class="btn btn-danger btn-sm" href="/produtos/excluir/<%= mostrar.id %>" onclick="return confirm('Deseja excluir este produto?')">Excluir</a>
+            </td>
+        </tr> 
+    <% }) %>
+</tbody>
 
-                                            <a class="btn btn-danger btn-sm" href="/clientes/excluir/<%= mostrar.id %> "
-                                                onclick="return confirm('Deseja excluir este produto?')">Excluir</a>
-
-
-                                        </td>
-                                        <% }) %>
-                                    </tr>
-                            </tbody>
                         </table>
                     </div>
                 </div>

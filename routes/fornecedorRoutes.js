@@ -82,4 +82,24 @@ router.get("/editar/:id", (req, res)=> {
 
 //editar - efetiva - POST
 
+router.post("/editar/:id", (req, res) => {
+  const id = parseInt(req.params.id);
+
+  const fornecedorEncontrada = fornecedores.find(c => c.id === id);
+
+  if (!fornecedorEncontrada) {
+    return res.redirect("/fornecedores");
+  }
+
+  const { razao, cnpj, email, tel, cid} = req.body;
+
+  fornecedorEncontrada.razao = razao;
+  fornecedorEncontrada.cnpj = cnpj;
+  fornecedorEncontrada.email = email;
+  fornecedorEncontrada.tel = tel;
+  fornecedorEncontrada.cid = cid;
+
+  res.redirect("/fornecedores");
+});
+
 module.exports = router;
